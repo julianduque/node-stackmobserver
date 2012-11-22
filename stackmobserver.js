@@ -1,3 +1,11 @@
+/*
+  StackMob Web Server in Node.js v0.1.0
+
+  This server is used for running HTML5 StackMob applications locally on your computer for development purposes.
+  It functions as a conditional proxy server. Resource files like static html, images, css, etc. are served
+  as a normal http server.  Requests originating from the StackMob JavaScript SDK contain a special HTTP
+  Header that tells this web server to forward requests to the StackMob API Server.
+*/
 var http = require('http')
   , httpStatic = require('node-static')
   , file = new httpStatic.Server('.')

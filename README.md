@@ -4,13 +4,12 @@ This is a rewrite of the [StackMob](http://www.stackmob.com) server for JS SDK w
 
 Requirements:
 
-	$ npm install node-static
-
+  $ npm install node-static
 
 Using:
 
-	$ node stackmobserver.js
-	
+  $ node stackmobserver.js
+
 
 The MIT License (MIT)
 Copyright (c) 2012 Julian Duque
