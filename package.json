@@ -1,0 +1,26 @@
+{
+  "name": "stackmobserver",
+  "version": "0.1.0",
+  "description": "StackMob Server for JS SDK",
+  "main": "stackmobserver.js",
+  "bin": { "stackmobserver": "./stackmobserver.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianduque/node-stackmobserver.git"
+  },
+  "dependencies": {
+    "node-static": "*"
+  },
+  "keywords": [
+    "stackmob",
+    "stackmobserver",
+    "stackmob",
+    "js"
+  ],
+  "author": "Julián Duque",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
   StackMob Web Server in Node.js v0.1.0
 

@@ -2,14 +2,26 @@
 
 This is a rewrite of the [StackMob](http://www.stackmob.com) server for JS SDK written in Node.js using proxying and static file server.
 
+
+
+### Standalone
+
 #### Requirements:
 
 	$ npm install node-static
 
-#### Using:
+#### Usage:
 
 	$ node stackmobserver.js
 
+### NPM
+
+#### Usage:
+
+	$ npm install stackmobserver -g
+	$ stackmobserver
+
+---
 
 ### The MIT License (MIT)
 Copyright (c) 2012 Julian Duque
